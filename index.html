@@ -5,6 +5,64 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
     </head>
     <body>
+      <section class="section columns">
+        <form id="mainForm" class="column is-half">
+          <div class="field">
+            <label class="label">A Noun</label>
+            <div class="control">
+              <input id="noun1" class="input" type="text" placeholder="a noun is a person, place or thing">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Another Noun</label>
+            <div class="control">
+              <input id="noun2" class="input" type="text" placeholder="a noun is a person, place or thing">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">An adjective</label>
+            <div class="control">
+              <input id="adjective1" class="input" type="text" placeholder="an adjective describes a noun">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Another adjective</label>
+            <div class="control">
+              <input id="adjective2" class="input" type="text" placeholder="an adjective describes a noun">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">A Plural Noun</label>
+            <div class="control">
+              <input id="pluralNoun1" class="input" type="text" placeholder="a noun is a person place or thing">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Another Plural Noun</label>
+            <div class="control">
+              <input id="pluralNoun2" class="input" type="text" placeholder="a noun is a person, place or thing">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">A Game</label>
+            <div class="control">
+              <input id="game" class="input" type="text" placeholder="examples include; Monopoly, Settlers of Catan, Uno.">
+            </div>
+          </div>
+
+          <div class="control">
+            <button class="button is-primary">Create Madlib!</button>
+          </div>
+        </form>
+        <div id="madlibContainer" class="column">
+        </div>
+      </section>
       <script src="./main.js"></script>
     </body>
   </html>
